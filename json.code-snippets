@@ -27,6 +27,7 @@
 	// }
 	
   "Competitive Programming Template": {
+        "scope": "cpp",
         "prefix": "cp",
         "body": [
             "#include <bits/stdc++.h>",
@@ -39,10 +40,11 @@
             "constexpr ll MOD = 1000000007LL;",
             "// constexpr ll MOD = 998244353LL;",
             "",
+            "#define nl '\\n'",
             "#define DEBUG 0",
             "",
             "#if DEBUG",
-            "#define debug(x) cerr << #x << \" = \" << (x) << '\\n'",
+            "#define debug(x) cerr << #x << \" = \" << (x) << '\\\\n'",
             "",
             "template <typename T>",
             "void debugVectorImpl(const vector<T>& v, const string& name) {",
