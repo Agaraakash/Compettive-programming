@@ -208,6 +208,19 @@
   ],
   "description": "Breadth First Search"
 },
+"Tree DFS": {
+    "scope": "cpp",
+    "prefix": "dfst",
+    "body": [
+        "void dfs_tree(ll u, ll p, vector<vector<ll>> &adj) {",
+        "\tfor (ll v : adj[u]) {",
+        "\t\tif (v == p) continue;",
+        "\t\tdfs_tree(v, u, adj);",
+        "\t}",
+        "}"
+    ],
+    "description": "Tree DFS template"
+},
 "NCR Factorial Precompute": {
   "prefix": "ncr",
   "body": [
