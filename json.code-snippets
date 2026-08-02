@@ -502,5 +502,18 @@
         "}"
     ],
     "description": "BFS template for trees computing depth and parent"
-}
+},
+
+    "MSB Position": {
+        "scope": "cpp",
+        "prefix": "msbpos",
+        "body": [
+            "ll msbPos(ll x) {",
+            "\tif (x == 0) return -1;",
+            "\treturn 63 - __builtin_clzll(x);",
+            "}"
+        ],
+        "description": "Returns the 0-based position of the most significant set bit"
+    }
+
   }
